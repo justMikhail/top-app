@@ -1,0 +1,40 @@
+.tag {
+  display: inline-block;
+
+  margin-right: 5px;
+
+  border-radius: 20px;
+
+  &_s {
+    padding: 5px 10px;
+
+    font-size: 12px;
+    line-height: 100%;
+  }
+
+  &_m {
+    padding: 5px 10px;
+
+    font-size: 14px;
+    line-height: 100%;
+  }
+
+  &_primary {
+    color: var(--primary-color-500);
+    border: 1px solid var(--primary-color-500);
+  }
+
+  &_secondary {
+    border: 1px solid var(--border-color-500);
+  }
+
+  &_error {
+    color: var(--on-error-color);
+    background-color: var(--error-color-700);
+  }
+
+  &_success {
+    color: var(--success-color-500);
+    background-color: var(--success-color-200);
+  }
+}

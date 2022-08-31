@@ -8,14 +8,14 @@ body {
   font-family: var(--font-family-base);
 }
 
+* {
+  box-sizing: border-box;
+}
+
 a {
   text-decoration: none;
 
   color: inherit;
-}
-
-* {
-  box-sizing: border-box;
 }
 
 :root {
@@ -26,8 +26,14 @@ a {
   --surface: #fff;
   --on-surface: #3b434e;
   --primary-color-500: #7653fc;
+  --primary-color-700: #6640f8;
+  --on-primary-color: #fff;
   --success-color-500: #1dc37e;
   --success-color-200: #c8f8e4;
   --error-color-500: #fc836d;
+  --error-color-700: #de0000;
+  --on-error-color: #fff;
+  --border-color-500: #ebebeb;
+  --transition-base: all 0.2s;
   --font-family-base: "Noto Sans", arial, sans-serif;
 }

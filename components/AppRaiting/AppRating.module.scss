@@ -1,0 +1,17 @@
+.star {
+  svg {
+    width: 20px;
+    height: 20px;
+    fill: var(--border-color-500);
+
+    margin-right: 5px;
+  }
+
+  &_filled svg {
+    fill: var(--primary-color-500);
+  }
+
+  &_editable svg {
+    cursor: pointer;
+  }
+}
