@@ -1,0 +1,32 @@
+.footer {
+  display: grid;
+
+  padding: 25px 30px;
+
+  color: var(--on-primary-color);
+  background-color: var(--primary-color-500);
+  grid-template-columns: 1fr auto auto;
+  gap: 10px 40px;
+
+  @media (max-width: 767px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.copyright {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 130%;
+}
+
+.link {
+  transition: var(--transition-base);
+
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 130%;
+
+  &:hover {
+    color: var(--border-color-500);
+  }
+}
